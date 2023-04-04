@@ -1,0 +1,56 @@
+
+.logoadr{width: 25%; height: auto;}
+.logoadr2{width: 50%;height: auto;}
+li{display: inline;}
+
+li{list-style-type: none ; padding: 10px;margin: 10px;}
+
+a{text-decoration: none;color: black; font-size: 20px;}
+
+header, footer{ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: bisque;
+}
+
+.rrss, .contacto{font-size: 20px; color: brown;}
+.mail,.num{color: black;}
+.ig{width: 50%;height: auto;}
+
+
+
+footer{display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;;}
+
+
+
+li:hover{
+    color: rgb(3, 3, 85);
+    font-size: 20px;
+    background-color: rgb(248, 143, 5);
+    padding: 10px;
+    border-radius: 20px;  
+}
+
+/* DESKTOP*/
+
+@media(min-width:1024px) {header{display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+    .encabezado, footer {display: flex; padding: 0;
+        flex-direction: column; align-items: center;justify-content: space-between;}
+        ul{display: flex; align-items: center; }
+a{color: black;font-size: 7px;
+            padding: 1px;margin: 1px;}
+            .logoadr{align-items: center;}
+    
+}
