@@ -45,14 +45,12 @@ li:hover{
 @media(min-width:1024px) {header{display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
 footer{display: flex;
     flex-direction: row; 
     justify-content: space-around;
     flex-wrap: wrap;
     align-content: center;;}
-
 }
 
 /* MOBILE */
@@ -66,5 +64,12 @@ a{color: black;font-size: 7px;
             .logoadr{align-items: center;}
             .logoadr2{align-items: center;}
 
-    
+            
+main{display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;}
+.Bienvenidos{font-size: 20px;}
+   
 }
+
