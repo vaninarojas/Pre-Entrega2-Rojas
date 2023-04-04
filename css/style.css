@@ -75,7 +75,7 @@ footer{display: flex;
     .infoContacto{grid-area: infoContacto;}
     .iframe{grid-area: iframe;}
     
-    
+    .nosotros1{width: 100%; height: 400px;}
 
 }
 
