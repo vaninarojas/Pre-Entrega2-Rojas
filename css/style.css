@@ -1,6 +1,8 @@
 
 .logoadr{width: 25%; height: auto;}
+
 .logoadr2{width: 50%;height: auto;}
+
 li{display: inline;}
 
 li{list-style-type: none ; padding: 10px;margin: 10px;}
@@ -12,18 +14,20 @@ header, footer{ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
 }
 
 .rrss, .contacto{font-size: 20px; color: brown;}
+
 .mail,.num{color: black;}
+
 .ig{width: 50%;height: auto;}
 
+.inicioadr{width: 100%;height: auto;}
 
+.Bienvenidos{font-size: 50px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;justify-content: center;}
 
-footer{display: flex;
-    flex-direction: row; 
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-content: center;;}
+.adr{font-size: 35px; font-family: 'Poppins', sans-serif;
+display: flex;justify-content: center;}
 
-
+.main{background-color:burlywood ;}
 
 li:hover{
     color: rgb(3, 3, 85);
@@ -40,6 +44,11 @@ li:hover{
     justify-content: space-between;
 
 }
+footer{display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;;}
 
 }
 
@@ -53,5 +62,6 @@ a{color: black;font-size: 7px;
             padding: 1px;margin: 1px;}
             .logoadr{align-items: center;}
             .logoadr2{align-items: center;}
+
     
 }
