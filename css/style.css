@@ -20,7 +20,7 @@ header, footer{ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
 .ig{width: 50%;height: auto;}
 
 .inicioadr{width: 100%;height: auto; 
-display: flex; justify-content: center;}
+display: flex; justify-content: center; border-radius: 10px;}
 
 .Bienvenidos{font-size: 50px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;justify-content: center;}
@@ -82,15 +82,24 @@ footer{display: flex;
 /* MOBILE */
 
 @media(max-width:768px){
-    .encabezado, footer {display: flex; padding: 0;
-        flex-direction: column; align-items: center;justify-content: space-between;}
+    .encabezado, .rrss,.contacto {display: flex; padding: 20px;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: space-between;}
         ul{display: flex; align-items: center; }
 a{color: black;font-size: 7px;
             padding: 1px;margin: 1px;}
-            .logoadr{display: flex; align-items: center;}
-            .logoadr2{display: flex; align-items: center; justify-content: center; width: 60%;height: auto;}
 
-            .ig{width: 30%;display: flex; justify-content: center; }
+            .logoadr{display: flex; align-items: center;}
+
+            .logoadr2{display: flex; padding: 2%;
+                 align-items: center; 
+                 width: 60%;}
+
+            .ig{width: 30%;display: flex; 
+                flex-direction: column;
+                align-items: center;
+                }
             
 .mainIndex{display: flex;
     flex-wrap: wrap;
