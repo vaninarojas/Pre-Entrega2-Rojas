@@ -34,6 +34,8 @@ display: flex;justify-content: center;}
 
 .m20{margin: 20px;}
 
+h1{text-align: center;color: brown;}
+
 form{display: flex; flex-direction: column;}
 
 h5, h6 {font-size: 20px;font-family: Arial, Helvetica, sans-serif;}
@@ -72,7 +74,7 @@ footer{display: flex;
     .form{grid-area: form;}
     .infoContacto{grid-area: infoContacto;}
     .iframe{grid-area: iframe;}
-    h1{text-align: center;color: brown;}
+    
     
 
 }
@@ -85,9 +87,10 @@ footer{display: flex;
         ul{display: flex; align-items: center; }
 a{color: black;font-size: 7px;
             padding: 1px;margin: 1px;}
-            .logoadr{align-items: center;}
-            .logoadr2{align-items: center;}
+            .logoadr{display: flex; align-items: center;}
+            .logoadr2{display: flex; align-items: center; justify-content: center; width: 60%;height: auto;}
 
+            .ig{width: 30%;display: flex; justify-content: center; }
             
 .mainIndex{display: flex;
     flex-wrap: wrap;
@@ -96,7 +99,7 @@ a{color: black;font-size: 7px;
 .Bienvenidos{font-size: 20px;}
 
 .gridcontacto{display: grid;
-    grid-template-columns: 100%;
+ grid-template-columns: 100%;
 grid-template-rows: auto auto auto auto;}
    
 }
