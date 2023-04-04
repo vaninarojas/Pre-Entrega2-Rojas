@@ -19,7 +19,8 @@ header, footer{ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
 
 .ig{width: 50%;height: auto;}
 
-.inicioadr{width: 100%;height: auto;}
+.inicioadr{width: 100%;height: auto; 
+display: flex; justify-content: center;}
 
 .Bienvenidos{font-size: 50px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;justify-content: center;}
@@ -27,7 +28,9 @@ header, footer{ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
 .adr{font-size: 35px; font-family: 'Poppins', sans-serif;
 display: flex;justify-content: center;}
 
-.main{background-color:burlywood ;}
+.main{background-color:burlywood ;
+    margin: 20px;
+    padding: 0px;}
 
 li:hover{
     color: rgb(3, 3, 85);
