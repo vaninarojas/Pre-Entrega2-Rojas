@@ -3,6 +3,15 @@
 
 .logoadr2{width: 50%;height: auto;}
 
+.nosotros1{width: 100%; height: 400px;}
+
+.imgTexto, .imgTexto2{width: 100%;height: auto; border-radius: 20px;}
+
+.tituloNos{font-size: 70px; color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex; justify-content: center;
+    padding: 20px;}
+
 li{display: inline;}
 
 li{list-style-type: none ; padding: 10px;margin: 10px;}
@@ -46,8 +55,6 @@ h5, h6 {font-size: 20px;font-family: Arial, Helvetica, sans-serif;}
    
 }
 
-
-
 li:hover{
     color: rgb(3, 3, 85);
     font-size: 20px;
@@ -56,12 +63,14 @@ li:hover{
     border-radius: 20px;  
 }
 
+.bgPrincipal{background-color: rgb(204, 204, 241);}
+
 /* DESKTOP*/
 
 @media(min-width:1024px) {header{display: flex;
     flex-direction: row;
-    justify-content: space-between;
-}
+    justify-content: space-between;}
+
 footer{display: flex;
     flex-direction: row; 
     justify-content: space-around;
@@ -75,24 +84,30 @@ footer{display: flex;
         "form infoContacto" 
         "form  iframe";
         grid-template-columns: 50% 50%;
-        grid-template-rows: auto auto auto;
-    }
+        grid-template-rows: auto auto auto;}
     
+
     .encabezadoContacto{grid-area: encabezado;}
     .form{grid-area: form;}
     .infoContacto{grid-area: infoContacto;}
     .iframe{grid-area: iframe;}
     
-    .nosotros1{width: 100%; height: 400px; padding: 5px;}
 
-    .tituloNos{font-size: 70px; color: black;
-        font-family: Arial, Helvetica, sans-serif;
-        display: flex; justify-content: center;
-        padding: 20px;}
+    .gridmainNos{
+     grid-template-areas: 
+    "nosotros"   "nosotros"   "nosotros" "nosotros"
+     "tituloNos"  "tituloNos"  "tituloNos" "tituloNos"
+     "pIzq" "imgTexto pDer imgTexto2";
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,auto);}
 
-    .imgTexto, .imgTexto2{width: 100%;height: auto; border-radius: 20px; 
-        padding: 10px;}
 
+    .nosotros1{grid-area: nosotros;}
+    .tituloNos{grid-area: tituloNos;}
+    .parrafoIzq{grid-area: pIzq;}
+    .imgTexto{grid-area: imgTexto;}
+    .parrafoDer{grid-area: pDer;}
+    .imgTexto2{grid-area: imgTexto2;}
 }
 
 
@@ -117,8 +132,7 @@ footer{display: flex;
                 margin-left: auto;
                 margin-right: auto; }
 
-            
-            
+                      
 .mainIndex{display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -127,6 +141,10 @@ footer{display: flex;
 
 .gridcontacto{display: grid;
  grid-template-columns: 100%;
+grid-template-rows: auto auto auto auto;}
+
+.gridmainNos{display:grid;
+grid-template-columns: 100%;
 grid-template-rows: auto auto auto auto;}
    
 }
