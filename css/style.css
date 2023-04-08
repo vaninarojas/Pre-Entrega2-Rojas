@@ -127,8 +127,8 @@ footer{display: flex;
     .ig{width: 30%;display: block; 
                 margin-left: auto;
                 margin-right: auto; }
-                
-.titulonos{font-size: 50px;}
+
+.titulonos{font-size: 20px;}
                       
 .mainIndex{display: flex;
     flex-wrap: wrap;
