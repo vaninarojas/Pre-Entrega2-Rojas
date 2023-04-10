@@ -12,6 +12,11 @@
     display: flex; justify-content: center;
     padding: 20px;}
 
+    .tituloProdu{font-size: 40px; color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex; justify-content: center;
+     padding: 20px;}
+
 li{display: inline;}
 
 li{list-style-type: none ; padding: 10px;margin: 10px;}
@@ -62,6 +67,13 @@ li:hover{
 
 .bgPrincipal{background-color: rgb(204, 204, 241);}
 
+.imgfluid{width: 100%; height: auto;}
+
+.prod{background-color: rgb(84, 74, 121);padding: 5px;
+    margin: 10px;border-radius: 20px;}
+
+  .h9{ display: flex; justify-content: center;}
+
 /* DESKTOP*/
 
 @media(min-width:1024px) {header{display: flex;
@@ -105,6 +117,23 @@ footer{display: flex;
     .imgTexto{grid-area: imgTexto;}
     .parrafoDer{grid-area: pDer;}
     .imgTexto2{grid-area: imgTexto2;}}
+
+
+    .gridmainProdu{
+        display: grid;
+        grid-template-areas: 
+        "prodA prodB";
+       
+        grid-template-columns: 25% 25%;
+        grid-template-rows: auto auto;
+        justify-content: center;}
+        
+        .gridmainProdu
+        {grid-area: tituloProdu;}
+        .prodA{grid-area:prodA;}
+        .prodB{grid-area:prodB;}
+        
+    
 
 
 /* MOBILE */
