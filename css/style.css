@@ -50,7 +50,7 @@ form{display: flex; flex-direction: column;}
 h5, h6 {font-size: 20px;font-family: Arial, Helvetica, sans-serif;}
 
 .p{font-size: 30px; 
-    font-family: Arial, Helvetica, sans-serif;}
+    font-family: Arial, Helvetica, sans-serif; text-align: center;}
 
 .bgPrincipal{background-color: rgb(204, 204, 241);}
 
@@ -58,6 +58,8 @@ h5, h6 {font-size: 20px;font-family: Arial, Helvetica, sans-serif;}
 
 .prod{background-color: rgb(84, 74, 121);padding: 5px;
     margin: 10px;border-radius: 20px;}
+
+    .tituloProdu,.gridmainProdu{padding: auto;margin: auto;}
 
   .h9{ display: flex; justify-content: center;}
 
@@ -143,7 +145,9 @@ footer{display: flex;
         align-items: center;
         justify-content: space-between;}
 
-.encabezado{display: block; margin-left: auto; margin-right: auto;}
+.encabezado{display: block; 
+    margin-left: auto;
+     margin-right: auto;}
 
 .Principal{display: grid; grid-template-columns:repeat(5) 1fr;
     padding: 0px; margin:0px;}
